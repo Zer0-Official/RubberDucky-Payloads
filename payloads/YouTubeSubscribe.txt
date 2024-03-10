@@ -3,12 +3,12 @@ REM Author:	Zer0-Official
 REM Description: Open YouTube and subscribe to a channel
 REM Target:	Windows 10/11
 REM Source: https://github.com/Zer0-Official/RubberDucky-Payloads
-REM Config: Change Channel ID in link for appropriate channel
+REM Config: Change Channel ID in the link for appropriate redirect
 REM
 DELAY 1000
 GUI r
 DELAY 200
-STRING https://www.youtube.com/channel/Channel_ID?sub_confirmation=1
+STRING https://www.youtube.com/channel/UCz_1A5IJK5AkpZSHQyfXHtg?sub_confirmation=1
 ENTER
 DELAY 5000
 TAB TAB SPACE
